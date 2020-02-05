@@ -1,0 +1,40 @@
+/* For 480 Resolution */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .form-group {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+    .form-group {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .form-group {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    .form-group {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1370px) and (max-width: 1605px) {
+    .form-group {
+        width: 50%;
+    }
+}
+
+@media only screen and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1) and (min-device-width : 768px) and (max-device-width : 1007px) {
+    .form-group {
+        width: 50%;
+    }
+}
+
+.form-group {
+    width: 50%;
+}
